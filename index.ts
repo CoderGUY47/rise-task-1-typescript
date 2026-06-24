@@ -122,3 +122,24 @@ const myProfile: Profile = {
 console.log("\n=== 8. OPTIONAL / READONLY ===");
 console.log("ID:", myProfile.id);
 console.log("Username:", myProfile.username);
+
+
+
+////////*****==============\\\\\\\\
+// 9. TYPE vs INTERFACE
+//\\\\\\*****==============////////
+// both 'type' and 'interface' describe objects, but interfaces are mergeable and support class inheritance.
+type Book = {
+  title: string;
+};
+
+interface Pen {
+  color: string;
+}
+
+const myBook: Book = { title: "TypeScript Guide" };
+const myPen: Pen = { color: "Blue" };
+
+console.log("\n=== 9. TYPE vs INTERFACE ===");
+console.log("Book Title:", myBook.title);
+console.log("Pen Color:", myPen.color);
