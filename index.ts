@@ -85,3 +85,18 @@ const studentInfo: Student = {
 
 console.log("\n=== 6. OBJECT ===");
 console.log("Student Info:", studentInfo);
+
+
+
+////////*****==============\\\\\\\\
+// 7. FUNCTION
+//\\\\\\*****==============////////
+// the parameter types are followed by colons, and the return type is placed after parameters.
+function add(x: number, y: number): number {
+  return x + y;
+}
+
+const sumResult = add(5, 10);
+
+console.log("\n=== 7. FUNCTION ===");
+console.log("5 + 10 =", sumResult);
