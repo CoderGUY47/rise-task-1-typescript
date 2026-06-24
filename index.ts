@@ -19,3 +19,37 @@ console.log("TypeScript is a safer version of JavaScript that catches errors ear
 // it prevents common errors like typos, wrong variables, or passing wrong arguments to functions.
 console.log("\n=== 2. WHY TYPESCRIPT NEED? ===");
 console.log("It helps us find bugs before running our code, making development easier.");
+
+
+
+////////*****==============\\\\\\\\
+// 3. PROJECT SETUP
+//\\\\\\*****==============////////
+/*
+  how to setup a typescript project:
+  1. download and install node.js from https://nodejs.org
+  2. initialize node project:  npm init -y
+  3. install typescript:       npm install typescript ts-node @types/node --save-dev
+  4. create config file:       npx tsc --init
+  5. run code:                 npx ts-node index.ts
+
+  official typescript website: https://www.typescriptlang.org
+*/
+// tsconfig.json controls how typescript behaves and compiles our files.
+console.log("\n=== 3. PROJECT SETUP ===");
+console.log("initialized with npm init, typescript, and tsconfig.json");
+
+
+
+////////*****==============\\\\\\\\
+// 4. PRIMITIVE DATA TYPES
+//\\\\\\*****==============////////
+// we use colons to declare types for variable name (string), age (number), and status (boolean).
+const myName: string = "Hasan";
+const myAge: number = 22;
+const isCoding: boolean = true;
+
+console.log("\n=== 4. PRIMITIVE DATA TYPES ===");
+console.log("Name:", myName);
+console.log("Age:", myAge);
+console.log("Is Coding:", isCoding);
