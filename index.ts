@@ -143,3 +143,18 @@ const myPen: Pen = { color: "Blue" };
 console.log("\n=== 9. TYPE vs INTERFACE ===");
 console.log("Book Title:", myBook.title);
 console.log("Pen Color:", myPen.color);
+
+
+
+////////*****==============\\\\\\\\
+// 10. NEXT()
+//\\\\\\*****==============////////
+// void is used because this function only prints a message and does not return any value.
+function next(): void {
+  console.log("next!");
+}
+
+console.log("\n=== 10. NEXT() ===");
+next();
+
+export {};
