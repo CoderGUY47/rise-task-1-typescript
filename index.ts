@@ -66,3 +66,22 @@ const scores: number[] = [80, 90, 100];
 console.log("\n=== 5. ARRAY ===");
 console.log("Fruits:", fruits);
 console.log("Scores:", scores);
+
+
+
+////////*****==============\\\\\\\\
+// 6. OBJECT
+//\\\\\\*****==============////////
+// type alias creates a custom shape that objects must match to prevent missing fields.
+type Student = {
+  roll: number;
+  name: string;
+};
+
+const studentInfo: Student = {
+  roll: 101,
+  name: "Hasan",
+};
+
+console.log("\n=== 6. OBJECT ===");
+console.log("Student Info:", studentInfo);
