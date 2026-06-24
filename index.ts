@@ -100,3 +100,25 @@ const sumResult = add(5, 10);
 
 console.log("\n=== 7. FUNCTION ===");
 console.log("5 + 10 =", sumResult);
+
+
+
+////////*****==============\\\\\\\\
+// 8. OPTIONAL / READONLY
+//\\\\\\*****==============////////
+// readonly protects critical data from being overwritten, while optional properties can be skipped.
+type Profile = {
+  readonly id: number; // can never be changed
+  username: string;
+  phone?: string; // optional (not required)
+};
+
+const myProfile: Profile = {
+  id: 1234,
+  username: "hasan_dev",
+  // phone is optional, so we can skip it
+};
+
+console.log("\n=== 8. OPTIONAL / READONLY ===");
+console.log("ID:", myProfile.id);
+console.log("Username:", myProfile.username);
