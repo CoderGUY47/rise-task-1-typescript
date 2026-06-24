@@ -53,3 +53,16 @@ console.log("\n=== 4. PRIMITIVE DATA TYPES ===");
 console.log("Name:", myName);
 console.log("Age:", myAge);
 console.log("Is Coding:", isCoding);
+
+
+
+////////*****==============\\\\\\\\
+// 5. ARRAY
+//\\\\\\*****==============////////
+// string[] means an array containing only strings, and number[] means only numbers.
+const fruits: string[] = ["Apple", "Banana", "Mango"];
+const scores: number[] = [80, 90, 100];
+
+console.log("\n=== 5. ARRAY ===");
+console.log("Fruits:", fruits);
+console.log("Scores:", scores);
